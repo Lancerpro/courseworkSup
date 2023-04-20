@@ -37,7 +37,7 @@ with open("Video_Games_Sales_as_at_22_Dec_2016.csv","r") as file:
         dataArr = []
         Top10 = []
         others = 0
-        labels = ['Nintendo','Microsoft','Ubisoft','Activision','Take-Two Interacrive','Atari','Sony Entertainment','bethesda','Sega','EA','other']
+        labels = ['Nintendo','Microsoft','Ubisoft','Activision','TTI','Atari','Sony Entertainment','bethesda','Sega','EA','other']
 
         #similar to iterating through the years in the first function
         #iterate through each publisher and find their total global sales since 1980
